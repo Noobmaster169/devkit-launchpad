@@ -15,11 +15,16 @@ Devkit Launchpad is the ultimate tool for developers building on Solana. It prov
 - Simulate token swapping and liquidity management.
 - Launch and test tokens before mainnet deployment.
 
+## Program Address:
+
+DufGAh71LGiVvQGziRh7yKxAiZf1qafKUkzNEqHTRjYj - [Open on Solana Explorer](https://explorer.solana.com/address/DufGAh71LGiVvQGziRh7yKxAiZf1qafKUkzNEqHTRjYj?cluster=devnet)
+
 ## Quick Links
 
 - **Project Information**: [Devkit Launchpad on Linktree](https://linktr.ee/devkit_launchpad)
 - **Demo Video**: [Watch the Demo](https://tr.ee/LTkqQmIRHD)
 - **Live Website**: [Access Devkit Launchpad](https://devkit-launchpad.vercel.app/)
+- **Program Address**: [Solana Explorer](https://explorer.solana.com/address/DufGAh71LGiVvQGziRh7yKxAiZf1qafKUkzNEqHTRjYj?cluster=devnet)
 
 ## How It Works
 

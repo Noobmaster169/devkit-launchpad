@@ -71,7 +71,7 @@ export default function DepositDisplay({pool, reload}:any) {
           depositorAccountB: userAccountB,
         }).rpc();
       toast({
-          title: "Token Successfully Created",
+          title: "Liquidity Deposit Successful",
           description: (
             <div className="pr-4">
               <p>Tx: {depositTx}</p>
@@ -82,9 +82,9 @@ export default function DepositDisplay({pool, reload}:any) {
           ),
           duration: 5000,
       });
-      reload();
     }catch(e){
       console.log("Transaction Failed")
+      console.log(e);
     }
 
     setIsLoading(false);
@@ -93,18 +93,18 @@ export default function DepositDisplay({pool, reload}:any) {
   return (
       <div className="space-y-6">
         <h2 className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text">Deposit Amount</h2>
-        <Card className="flex items-center p-3 bg-[#0A1A3B]/60 border border-blue-500/20 rounded-lg">
-          <input type="text" value={amountA} onChange={(e)=>{setAmountA(e.target.value)}} placeholder="Deposit Amount" className="w-full bg-transparent px-1 py-1 border-none focus:ring-0 focus:outline-none"/>
-          <div className="flex w-[130px] items-center ml-2 bg-blue-500/20 rounded-full px-3 py-2">
-              <Image
-              src="/token-image.png"
-              alt={pool.mintA.toString()}
-              width={24}
-              height={24}
-              className="rounded-full mr-2"
-              />
-              <span className="text-blue-300">{pool.mintA.toString().slice(0,4).toUpperCase()}</span>
-          </div>
+          <Card className="flex items-center p-3 bg-[#0A1A3B]/60 border border-blue-500/20 rounded-lg">
+            <input type="text" value={amountA} onChange={(e)=>{setAmountA(e.target.value)}} placeholder="Deposit Amount" className="w-full bg-transparent px-1 py-1 border-none focus:ring-0 focus:outline-none"/>
+            <div className="flex w-[130px] items-center ml-2 bg-blue-500/20 rounded-full px-3 py-2">
+                <Image
+                src="/token-image.png"
+                alt={pool.mintA.toString()}
+                width={24}
+                height={24}
+                className="rounded-full mr-2"
+                />
+                <span className="text-blue-300">{pool.mintA.toString().slice(0,4).toUpperCase()}</span>
+            </div>
           </Card>
           <Card className="flex items-center p-3 bg-[#0A1A3B]/60 border border-blue-500/20 rounded-lg">
             <input type="text" value={amountB} onChange={(e)=>{setAmountB(e.target.value)}} placeholder="Deposit Amount" className="w-full bg-transparent px-1 py-1 border-none focus:ring-0 focus:outline-none"/>

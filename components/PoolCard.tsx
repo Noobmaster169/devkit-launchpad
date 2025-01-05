@@ -51,11 +51,11 @@ export default function PoolCard({openPool, pool}:any){
                     className="rounded-full absolute ml-6"
                 />
                 </div>
-                <span className="text-2xl font-bold text-cyan-400 pl-7">{token1} / {token2}</span>
+                <span className="text-2xl font-bold text-cyan-400 pl-6">{token1}/{token2}</span>
             </div>
             <div className="space-y-2 mb-4">
                 <div className=" ml-3 flex items-center space-x-1 mb-2">
-                    <p className="text-md font-semibold text-white">Pool ID:</p>
+                    <p className="text-md font-semibold text-white">ID:</p>
                     <div className="font-semibold text-md text-cyan-300 hover:text-cyan-400" onClick={()=>{copy("id")}}>
                         {idCopied? "Copied!" : parseAddress(pool.id.toString(), 20,0)}
                     </div> 
@@ -72,7 +72,7 @@ export default function PoolCard({openPool, pool}:any){
                         <div>
                         <div className="text-xs font-semibold">Token 1:</div>
                         <div className="font-normal font-semibold text-sm text-cyan-300 hover:text-cyan-400" onClick={()=>{copy("mintA")}}>
-                            {mintACopied? "Copied!" : parseAddress(pool.mintA.toString(), 25,0)}
+                            {mintACopied? "Copied!" : parseAddress(pool.mintA.toString(), 8,8)}
                         </div>
                         </div>
                     </div>
@@ -93,7 +93,7 @@ export default function PoolCard({openPool, pool}:any){
                         <div>
                             <div className="text-xs font-semibold">Token 2:</div>
                             <div className="font-normal font-semibold text-sm text-cyan-300 hover:text-cyan-400" onClick={()=>{copy("mintB")}}>
-                                {mintBCopied? "Copied!" : parseAddress(pool.mintB.toString(), 25,0)}
+                                {mintBCopied? "Copied!" : parseAddress(pool.mintB.toString(), 8,8)}
                             </div> 
                         </div>
                     </div>

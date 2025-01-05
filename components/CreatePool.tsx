@@ -206,7 +206,7 @@ export default function CreatePool({setIsOpened, creatingToken, setCreatingToken
                     poolAccountB: poolB,
                 }).rpc()
             toast({
-                title: "Token Successfully Created",
+                title: "AMM Successfully Created",
                 description: (
                     <div className="pr-4">
                         <p>Tx: {initializeAmmTx}</p>

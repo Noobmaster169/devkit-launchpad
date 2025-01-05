@@ -56,9 +56,10 @@ export default function LandingPage() {
         setDisplayNavbar(false);
     }
     async function reload(){
-        setNewPool(!newPool);
-        await delay(10000);
-        setNewPool(newPool);
+        const pool:boolean = newPool;
+        setNewPool(!pool);
+        await delay(30000);
+        setNewPool(pool);
     }
 
     async function getPools(){

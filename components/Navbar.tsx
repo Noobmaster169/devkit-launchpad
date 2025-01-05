@@ -33,7 +33,7 @@ export default function NavBar() {
             <div className="justify-between mx-auto pr-6 lg:max-w-7x1 flex md:pr-8">
                 {/*<h1 className = "hidden md:block font-semibold text-3xl pt-1.5">Swap Simulator</h1>*/}
                 {/*<GradientText className="text-4xl font-bold pt-1.5">DevKit Launchpad</GradientText>*/}
-                <h1  className="text-4xl font-bold text-cyan-400 pt-1.5">Devkit Launchpad</h1>
+                <h1  className="text-2xl lg:text-3xl font-bold text-cyan-400 pt-1.5">Devkit Launchpad</h1>
                 <div className="gap-5 hidden md:flex center pt-2">
                     <PCNavLinks />
                 </div>

@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Devkit Launchpad
 
-## Getting Started
+Devkit Launchpad is the ultimate tool for developers building on Solana. It provides a platform to create and manage tokens, liquidity pools, and simulate token swapping, enabling seamless testing and development of Solana smart contracts.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Token Launching**: Easily create and mint tokens on Solana Devnet for testing and development.
+- **Aggregated Market Making Pools**: Build and simulate liquidity pools to test token swapping functionality, similar to platforms like Radium, Orca, and Jupiter.
+- **Simulated Environment**: Test smart contracts and programs in a Solana Mainnet-like environment without deploying on the mainnet.
+- **API Integration (Coming Soon)**: Simplify token swap instructions with API calls to integrate with your applications.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Use Cases
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Test smart contracts and programs in a controlled environment.
+- Simulate token swapping and liquidity management.
+- Launch and test tokens before mainnet deployment.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Quick Links
 
-## Learn More
+- **Project Information**: [Devkit Launchpad on Linktree](https://linktr.ee/devkit_launchpad)
+- **Demo Video**: [Watch the Demo](https://tr.ee/LTkqQmIRHD)
+- **Live Website**: [Access Devkit Launchpad](https://devkit-launchpad.vercel.app/)
 
-To learn more about Next.js, take a look at the following resources:
+## How It Works
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Connect Wallet**: Open the dashboard and connect your Solana wallet.
+2. **Create Tokens**: Mint new tokens or use existing ones on Solana Devnet.
+3. **Initialize Liquidity Pools**: Set up aggregated liquidity pools for token swapping simulations.
+4. **Simulate Token Swapping**: Deposit liquidity and test token swaps through the platform.
+5. **API Integration (Upcoming)**: Fetch instructions to programmatically integrate token swaps into your applications.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Screenshots
 
-## Deploy on Vercel
+### Landing Page
+![Landing Page](public/landing_page.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Create Token
+![Create Token](public/create-token.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Initialize AMM
+![Initialize AMM](public/initialize-amm.png)
+
+### Deposit Liquidity
+![Deposit Liquidity](public/deposit-liquidity.png)
+
+### Swap Token
+![Swap Token](public/swap-token.png)
+
+## Future Plans
+
+- API integration to enable developers to simulate token swaps directly through API calls.
+
+## Get Started
+
+Visit our [Live Website](https://devkit-launchpad.vercel.app/) to explore the platform and start building on Solana today!

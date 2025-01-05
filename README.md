@@ -41,7 +41,7 @@ Devkit Launchpad is the ultimate tool for developers building on Solana. It prov
 ![Initialize AMM](public/initialize-amm.png)
 
 ### Deposit Liquidity
-![Deposit Liquidity](public/deposit-liquidity.png)
+![Deposit Liquidity](public/deposit-liquidity.jpeg)
 
 ### Swap Token
 ![Swap Token](public/swap-token.png)
